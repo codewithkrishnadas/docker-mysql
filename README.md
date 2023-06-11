@@ -1,2 +1,5 @@
-# docker-mysql
-docker compose file with mysql and phpmyadmin
+## To create container open mysql folder, then run 
+`docker compose up`
+
+## To import database 
+`docker exec -i mysql mysql -uroot -proot DATABASE_NAME < SQL_FILE_PATH.sql`
